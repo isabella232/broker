@@ -8,7 +8,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 	"github.com/streadway/amqp"
-	"labix.org/v2/mgo"
+	"gopkg.in/mgo.v2"
 )
 
 type Handler interface {
